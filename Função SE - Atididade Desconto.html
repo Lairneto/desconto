@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funcao SE - Atividade Desconto</title>
+</head>
+<body>
+    <h1>Tabela de Desconto</h1>
+    <div id = "verdesconto"></div> </div>
+    <script>
+let cliente = Number(prompt("Já é cliente? \n 1 = SIM \n 2 = NÃO"));
+let desconto;
+if(cliente == 1){ desconto = "10% Desconto"}
+else{desconto = "5% Desconto"}
+
+document.getElementById("verdesconto").innerHTML = desconto;    
+    </script>
+</body>
+</html>     
